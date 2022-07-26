@@ -51,15 +51,15 @@ img {
     flex-direction: column;
     justify-content: center;
 }
-header {
+.header {
     text-align: center;
     font-size: 1.5rem;
     margin: 1.5rem auto;
 }
-header strong {
+.header strong {
     color: var(--Soft-violet);
 }
-header p {
+.header p {
     font-size: 1rem;
     margin: 1rem 3rem 0 3rem;
     color: var(--Slightly-transparent-main-paragraph);
@@ -108,8 +108,40 @@ header p {
         margin: auto 2rem;
     }
 }   
-@media (min-width: 1270px) {
+@media (min-width: 1271px) {
     .container {
+        width: 90rem;
+        height: 40rem;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .dsk-img {
+        width: 48rem;
+        height: 40rem;
+        display: block;
+    }
+    .mb-img {
         display: none;
     }
-} 
+    .header {
+        text-align: left;
+    }
+    .header h3 {
+        font-size: 2.5rem;
+        margin: auto 3rem;
+    }
+    .header p {
+        margin: 2.3rem 7rem auto 3rem;
+        font-size: 1.3rem;
+    }
+    .data {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 18rem;
+    }
+    .stats {
+        font-size: 2rem;
+        margin: auto 3rem;
+    }
+}
