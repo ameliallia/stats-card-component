@@ -30,6 +30,7 @@ body {
 }
 .container {
     width: 27rem;
+    height: 52rem;
     background-color: var(--Dark-desaturated-blue);
     border-radius: 0.5rem;
     overflow: hidden;
@@ -77,8 +78,8 @@ header p {
 }
 .stats p {
     color: var(--Slightly-transparent-stats-headings);
-    font-size: 0.9rem;
-    margin: 0.5rem auto auto auto;
+    font-size: 0.8rem;
+    margin: 0.3rem auto auto auto;
 } 
 @media (min-width: 667px) and (max-width: 1270px) {
     .container {
