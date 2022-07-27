@@ -81,7 +81,7 @@ img {
     font-size: 0.8rem;
     margin: 0.3rem auto auto auto;
 } 
-@media (min-width: 667px) and (max-width: 1270px) {
+/* @media (min-width: 667px) and (max-width: 1270px) {
     .container {
         width: 57rem;
         height: 27rem;
@@ -107,7 +107,7 @@ img {
     .stats {
         margin: auto 2rem;
     }
-}   
+}    */
 @media (min-width: 1271px) {
     .container {
         width: 90rem;
